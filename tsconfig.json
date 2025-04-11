@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "types": ["node", "@wdio/globals/types", "@wdio/mocha-framework", "@openui5/types"],
+    "target": "es2020", // Updated to a more modern target for better compatibility
+    "lib": ["es2020", "dom"], // Added 'dom' for browser-related types
+    "strict": true, // Enables strict type checking
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true // Skips type checking of declaration files for faster builds
+  }
+}
